@@ -5,7 +5,7 @@
 /* -------------main div--------- */
 .main {
     position: relative; 
-    height: 87vh;
+    height: 81vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
 .main::before {    
       content: "";
       background-image: url('images/back.png');
-      background-size: 95vh;
+      background-size: 90vh;
       position: absolute;
       top: 0px;
       right: 0px;
