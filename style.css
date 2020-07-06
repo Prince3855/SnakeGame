@@ -5,7 +5,7 @@
 /* -------------main div--------- */
 .main {
     position: relative; 
-    height: 85vh;
+    height: 86vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -47,8 +47,8 @@
 
 
 .container{
-    height: 80vmin;
-    width: 80vmin;
+    height: 79vmin;
+    width: 79vmin;
     margin: 0px;
     padding: 0px;
     margin: auto;
