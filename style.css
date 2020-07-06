@@ -15,7 +15,7 @@
 .main::before {    
       content: "";
       background-image: url('images/back.png');
-      background-size: 90%;
+      background-size: 90vh;
       position: absolute;
       top: 0px;
       right: 0px;
