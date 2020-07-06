@@ -28,8 +28,10 @@ let direction;
 let score=0;
 let maximumScore=window.localStorage.getItem("maxScore");
 if(maximumScore=="NaN") maximumScore=0;
-maximumScore=parseInt(maximumScore);
-document.getElementById("score").innerHTML=`${maximumScore}`;
+else{
+    maximumScore=parseInt(maximumScore);
+    document.getElementById("score").innerHTML=`${maximumScore}`;
+}
 
 
 // --------food-------
