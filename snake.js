@@ -4,7 +4,6 @@ let home = document.getElementById("home");
 let start = document.getElementById("play");
 let boar = document.getElementById("board");
 start.addEventListener('click', () => {
-    console.log("thayu");
     home.style.display = "none";
     boar.style.display = "block";
 })
@@ -24,9 +23,9 @@ const board = canvas.getContext('2d');
 // --------global variables---------
 let snake = [{ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20 }];
     snake.push({ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20+20 });
-    
+    snake.push({ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20+40 });
 const box = 20;
-let direction="UP";
+let direction;
 let score=0;
 let maximumScore=window.localStorage.getItem("maxScore");
 if(maximumScore=="NaN") maximumScore=0;
