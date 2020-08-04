@@ -26,7 +26,7 @@ let snake = [{ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20 }];
     snake.push({ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20+20 });
     snake.push({ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20+40 });
 const box = 20;
-let direction;
+let direction="UP";
 let score=0;
 let maximumScore=window.localStorage.getItem("maxScore");
 if(maximumScore=="NaN") maximumScore=0;
