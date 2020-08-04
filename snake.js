@@ -161,7 +161,7 @@ function draw() {
         clearInterval(game);
         setTimeout(() => {
             over();
-        }, 1000);
+        }, 2500);
 
     }
 
