@@ -23,8 +23,8 @@ const board = canvas.getContext('2d');
 
 // --------global variables---------
 let snake = [{ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20 }];
-    snake.push({ x: parseInt(width / 2) * 20+20, y: parseInt(width / 2) * 20+20 });
-    snake.push({ x: parseInt(width / 2) * 20+40, y: parseInt(width / 2) * 20+40 });
+    snake.push({ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20+20 });
+    snake.push({ x: parseInt(width / 2) * 20, y: parseInt(width / 2) * 20+40 });
 const box = 20;
 let direction;
 let score=0;
