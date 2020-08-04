@@ -148,7 +148,7 @@ function draw() {
             document.getElementById("score").innerHTML=`${score}`;
             eat.play();
         }
-        else {
+        else if(headx!=snake[0].x || heady!=snake[0].y){
             snake.pop();
         }
 
@@ -166,7 +166,7 @@ function draw() {
     }
 
     //update sneck head
-    if (flag == true) {
+    if (flag == true && (headx!=snake[0].x || heady!=snake[0].y) ) {
         snake.unshift(head);
     }
 }
