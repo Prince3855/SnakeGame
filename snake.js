@@ -35,7 +35,6 @@ else{
     document.getElementById("score").innerHTML=`${maximumScore}`;
 }
 
- drawSnake();
 // --------food-------
 let food = {
     x: Math.floor(Math.random() * width) * box,
@@ -163,7 +162,7 @@ function draw() {
         clearInterval(game);
         setTimeout(() => {
             over();
-        }, 500);
+        }, 1000);
 
     }
 
